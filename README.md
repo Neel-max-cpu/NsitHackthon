@@ -1,6 +1,6 @@
 # ✨ CosmicVoyage - A Futuristic Space Travel Agency ✨
 
-## Check the video for the brief of the project without running here  -> [Link](https://youtu.be/pAeTPGNqEBA) ⭐
+## Check Live Link here  -> [Link](https://hackathonnsit.netlify.app/) ⭐
 
 ![Demo App Image 1](./public/1.png)
 ![Demo App Image 2](./public/2.png)
