@@ -13,7 +13,7 @@
   animation: floatingStars 50s linear infinite;
 }
 
-.bg-space2 {
+.bg-newspace {
   background: url("./assets/bgspace2.jpg");
   background-size: cover;
   animation: floatingStars 50s linear infinite;

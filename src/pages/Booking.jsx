@@ -123,7 +123,7 @@ const Booking = () => {
             {/* Step 5: Price Calculation */}
             <div className="mt-6">
               <Button
-                className="btn btn-primary text-white border-0 border-amber-100 bg-space2 hover:bg-success w-full"
+                className="btn btn-primary text-white border-0 border-amber-100 bg-newspace hover:bg-success w-full"
                 onClick={calculatePrice}
               >
                 Calculate Price

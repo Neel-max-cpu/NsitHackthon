@@ -8,7 +8,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="fixed w-full h-[50px] bg-transparent flex justify-between items-center p-3">
+    <div className="fixed w-full h-[50px] bg-transparent flex justify-between items-center p-3 z-10">
       <div className='flex'>
         {/* left side */}
         <div className='flex items-center p-3 space-x-4'>
