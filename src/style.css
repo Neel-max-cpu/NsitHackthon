@@ -13,6 +13,12 @@
   animation: floatingStars 50s linear infinite;
 }
 
+.bg-space2 {
+  background: url("./assets/bgspace2.jpg");
+  background-size: cover;
+  animation: floatingStars 50s linear infinite;
+}
+
 /* Add this to your global CSS or Tailwind config */
 .parallax {
     background-image: url('path_to_your_space_image.jpg');

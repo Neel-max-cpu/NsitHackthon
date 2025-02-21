@@ -18,6 +18,7 @@ function App() {
         <Navbar />
         <Routes>
           
+          <Route path="/" element={<Destination />} />
           <Route path="/destination" element={<Destination />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/spacecraft" element={<SpaceCraft />} />          

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Button } from '../components/ui/button';
 
 const Booking = () => {
   const [destination, setDestination] = useState('');
@@ -72,9 +73,9 @@ const Booking = () => {
                 value={classType}
                 onChange={(e) => setClassType(e.target.value)}
               >
-                <option value="Economy">Economy</option>
-                <option value="Business">Business</option>
-                <option value="VIP Space Pod">VIP Space Pod</option>
+                <option className='text-black' value="Economy">Economy</option>
+                <option className='text-black' value="Business">Business</option>
+                <option className='text-black' value="VIP Space Pod">VIP Space Pod</option>
               </select>
             </div>
 
@@ -92,12 +93,12 @@ const Booking = () => {
 
             {/* Step 5: Price Calculation */}
             <div className="mt-6">
-              <button
-                className="btn btn-primary w-full"
+              <Button
+                className="btn btn-primary text-white border-0 border-amber-100 bg-space2 hover:bg-success w-full"
                 onClick={calculatePrice}
               >
                 Calculate Price
-              </button>
+              </Button>
               {price > 0 && (
                 <div className="mt-4 text-white">
                   <h3 className="text-xl font-semibold">Total Price: ${price}</h3>
@@ -108,9 +109,9 @@ const Booking = () => {
             {/* Step 6: Payment Section */}
             <div className="mt-6">
               <h2 className="text-white text-xl">Payment</h2>
-              <select className="select bg-transparant text-white select-bordered w-full mt-2">
-                <option value="credit">Credit Card</option>
-                <option value="crypto">Cryptocurrency</option>
+              <select className="select bg-transparent text-white select-bordered w-full mt-2">
+                <option className='text-black' value="credit">Credit Card</option>
+                <option className='text-black' value="crypto">Cryptocurrency</option>
               </select>
             </div>
 
