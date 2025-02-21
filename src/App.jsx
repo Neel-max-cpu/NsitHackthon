@@ -1,16 +1,29 @@
-import { useState } from 'react'
+import react from 'react'
 import './App.css'
-import { Button } from './components/ui/button'
+import "./style.css"
+import Navbar from './components/Navbar'
+import Destination from './pages/Destination'
+import Booking from './pages/Booking'
+import SpaceCraft from './pages/SpaceCraft'
+
+import { Routes, Route } from 'react-router-dom'
+import ErrorBoundary from './lib/ErrorBoundary'
 
 function App() {
-  
+
 
   return (
-    <div className="font-bold text-2xl">
-      hello
-      <Button className="bg-red-500 hover:bg-gray-500 text-white">hello i am shadcn button</Button>
+    <div>
+      <ErrorBoundary>
+        <Navbar />
+        <Routes>
+          
+          <Route path="/destination" element={<Destination />} />
+          <Route path="/booking" element={<Booking />} />
+          <Route path="/spacecraft" element={<SpaceCraft />} />          
+        </Routes>
+      </ErrorBoundary>
     </div>
-      
   )
 }
 

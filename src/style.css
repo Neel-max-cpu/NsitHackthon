@@ -1,0 +1,23 @@
+@keyframes floatingStars {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.bg-space {
+  background: url("./assets/bgspace.jpg");
+  background-size: cover;
+  animation: floatingStars 50s linear infinite;
+}
+
+/* Add this to your global CSS or Tailwind config */
+.parallax {
+    background-image: url('path_to_your_space_image.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
