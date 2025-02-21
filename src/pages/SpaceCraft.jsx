@@ -23,7 +23,7 @@ const spacecrafts = [
 
 const SpaceCraft = () => {
   return (
-    <div className='bg-space w-full min-h-screen p-12 flex-col items-center justify-center'>
+    <div className='bg-space w-full min-h-screen p-12 flex-col items-center justify-center space-y-20'>
       <div className="container mx-auto p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {spacecrafts.map((spacecraft, index) => (
           <motion.div
@@ -42,7 +42,8 @@ const SpaceCraft = () => {
           </motion.div>
         ))}
       </div>      
-        <Accordion />
+      
+        <Accordion />      
       
 
 

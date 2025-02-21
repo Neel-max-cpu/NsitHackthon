@@ -2,7 +2,11 @@ import React from 'react'
 
 const Accordion = () => {
     return (
-        <div className='bg-newspace text-white rounded-2xl w-full p-10'>
+        
+        <div className='bg-space text-white rounded-2xl w-full p-10'>
+            <div className='flex items-center justify-center mb-10'>
+                <h1 className='text-2xl font-extrabold items-center'>Frequently Asked questions</h1>
+            </div>
             <div className="bg-transparent collapse collapse-plus border border-white">
                 <input type="radio" name="my-accordion-3" defaultChecked />
                 <div className="collapse-title font-semibold">What is space travel?"</div>
